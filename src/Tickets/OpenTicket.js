@@ -36,10 +36,7 @@ class OpenTicket extends React.Component{
                                 <button onClick={()=>this.props.changeCompletionStatus(item.id,this.state.desc)} 
                                 className="btn btn-primary m-1" >Done</button>
                             }
-                            {/* <button onClick={()=>this.props.changeCompletionStatus(item.id,this.state.desc)}
-                            // className="btn btn-primary m-1 ">Done</button> */}
-                            {/* <button onClick={()=>this.props.deleteTask(item.id)} 
-                            className="btn btn-primary m-1 ">Trash</button> */}
+                            
                         </div>
                         :
                         <div className= "bg-primary my-1 border border-primary justify-content-center d-flex p-2">
@@ -48,8 +45,7 @@ class OpenTicket extends React.Component{
                         <input onChange={this.captureDescription}></input>
                         <button onClick={()=>this.props.changeCompletionStatus(item.id,this.state.desc)} 
                         className="btn btn-primary m-1 ">Done</button>
-                        {/* <button onClick={()=>this.props.deleteTask(item.id)} 
-                        className="btn btn-primary m-1 ">Trash</button> */}
+                        
                         </div>
                         }
                         </div>
