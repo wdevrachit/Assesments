@@ -48,7 +48,7 @@ class Ticket extends React.Component{
         // console.log(this.state.data);
         return(
             <div>
-                <h1>Hello ticket</h1>
+                <h1>Ticket System</h1>
                 
                 <OpenTicket
                 changeCompletionStatus={this.changeCompletionStatus}  
